@@ -81,3 +81,35 @@ header{
     width: 1300px;
     height: 600px;
 }
+/* --------------feature section----------- */
+.our-feature{
+    /* padding-left: 301px;
+    padding-right: 301px; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 73px;
+    justify-content: center;
+    
+}
+.our-images{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 24px;
+    padding-top: 130px;
+    padding-left: 150px;
+
+}
+.our-info{
+    padding-top: 332px;
+    padding-right: 80px;
+}
+.our-title{
+    padding-bottom: 24px;
+}
+.our-des{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--ash-color);
+    text-align: start;
+    padding-bottom: 32px;
+}
