@@ -89,6 +89,7 @@ header{
     grid-template-columns: repeat(2, 1fr);
     gap: 73px;
     justify-content: center;
+    margin-bottom: 120px;
     
 }
 .our-images{
@@ -112,4 +113,62 @@ header{
     color: var(--ash-color);
     text-align: start;
     padding-bottom: 32px;
+}
+/* ----------features 2nd section------------- */
+.features-container{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 146px;
+   justify-content: center;
+}
+.feature-info{
+    padding-left: 120px;
+}
+.feature-headline{
+    font-weight: 900;
+    font-size: 47px;
+    color: #131313;
+    padding-bottom: 24px;
+
+}
+.feature-des{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--ash-color);
+    margin-bottom: 30px;
+}
+.feature-list{
+    display: grid;
+    grid-template-columns: repeat(1 ,1fr);
+    gap: 24px;
+}
+.feature-item{
+    padding: 30px 42px 30px 30px;
+    border-radius: 5px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 14px 0px;
+}
+.feature-title{
+    font-weight: 600;
+    font-size: 20px;
+}
+.feature-des1{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--ash-color);
+}
+.feature-img img{
+    height: 800px;
+
+}
+#big-btn{
+    width: 300px;
+    height: 159px;
+    
+    position: relative;
+    top: -161px;
+    left: 741px;
+}
+#big-btn p{
+    font-weight: 700;
+    font-size: 65px;
 }
