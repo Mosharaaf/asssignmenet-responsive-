@@ -172,3 +172,53 @@ header{
     font-weight: 700;
     font-size: 65px;
 }
+
+/* ------------some facts--------------- */
+.some-facts-heading{
+    font-weight: 1000;
+    font-size: 47px;
+    color: #131313;
+    padding-bottom: 24px;
+    padding-left: 120px;
+}
+.some-facts-para p{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--ash-color);
+    padding-left: 120px;
+    margin-bottom: 100px;
+}
+/*                         review-sec                    */
+.review{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    margin-left: 140px;
+    gap: 100px;
+    margin-bottom: 190px;
+    
+}
+.review-list{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-right: 100px;
+    transition: width 2s, height 2s, transform 2.6s linear;
+
+}
+.review-list:hover{
+background-color: #FF900E;
+height: 90%;
+width: 90%;
+transform: rotate(360deg);
+
+}
+.review-icon{
+    padding-top: 45px;
+}
+.review-num{
+    padding-top: 10px;
+}
+.review-des{
+    padding-top: 6px;
+}
