@@ -222,3 +222,27 @@ transform: rotate(360deg);
 .review-des{
     padding-top: 6px;
 }
+/*                                                    sponsors           */
+
+.sponsors{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-top: 50px;
+    padding-left: 120px;
+    margin-bottom: 130px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 1440px; */
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin-bottom: 200px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.footer p{
+    justify-content: center;
+}
