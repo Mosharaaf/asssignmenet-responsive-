@@ -299,12 +299,24 @@ header {
         position:relative;
         left: 197px;
         top: 20px;
+        
     }
     #big-btn p {
     font-weight: 700;
     font-size: 49px;
 }
-    
+    .some-facts-heading{
+      padding-top: 50px;
+    }
+    .review{
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .sponsors{
+      grid-template-columns: repeat(1, 1fr);
+      padding-left: 205px;
+      gap: 30px;
+     
+    }
     
 
 
